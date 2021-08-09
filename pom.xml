@@ -768,11 +768,7 @@ Modifications copyright (c) 2018-2019 Nokia
 
     <repositories>
         <!-- LF repositories -->
-        <repository>
-            <id>ecomp-releases</id>
-            <name>Release Repository</name>
-            <url>${nexus.proxy}/content/repositories/releases/</url>
-        </repository>
+       
         <repository>
             <id>ecomp-snapshots</id>
             <name>Snapshots Repository</name>
@@ -787,11 +783,7 @@ Modifications copyright (c) 2018-2019 Nokia
     </repositories>
 
     <distributionManagement>
-        <repository>
-            <id>ecomp-releases</id>
-            <name>Release Repository</name>
-            <url>${nexus.proxy}/content/repositories/releases/</url>
-        </repository>
+        
         <snapshotRepository>
             <id>ecomp-snapshots</id>
             <name>Snapshot Repository</name>
