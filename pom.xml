@@ -495,17 +495,7 @@ Modifications copyright (c) 2018-2019 Nokia
                         <goals>
                             <goal>execute</goal>
                         </goals>
-                        <configuration>
-                            <source>
-                                pom.properties['deploy.url'] =
-                                    pom.version.contains('-SNAPSHOT') ?
-                                        project.distributionManagement.snapshotRepository.url :
-                                        project.distributionManagement.repository.url;
-                                pom.properties['repo.id'] = pom.version.contains('-SNAPSHOT') ?
-                                    project.distributionManagement.snapshotRepository.id :
-                                    project.distributionManagement.repository.id;
-                            </source>
-                        </configuration>
+                   
                     </execution>
                 </executions>
             </plugin>
