@@ -485,20 +485,7 @@ Modifications copyright (c) 2018-2019 Nokia
             </plugin>
 
             <!-- Set the deployment repositories properties. -->
-            <plugin>
-                <groupId>org.codehaus.gmaven</groupId>
-                <artifactId>gmaven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <inherited>false</inherited>
-                        <phase>integration-test</phase>
-                        <goals>
-                            <goal>execute</goal>
-                        </goals>
-                   
-                    </execution>
-                </executions>
-            </plugin>
+           
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
