@@ -35,7 +35,7 @@ Modifications copyright (c) 2018 Nokia
 
   <properties>
     <thrift.version>0.13.0</thrift.version>
-    <cassandra-all.version>3.11.10</cassandra-all.version>
+    <cassandra-all.version>3.11.12</cassandra-all.version>
   </properties>
   <dependencies>
 
